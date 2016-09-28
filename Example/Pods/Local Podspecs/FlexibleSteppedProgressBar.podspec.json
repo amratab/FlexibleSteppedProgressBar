@@ -1,9 +1,11 @@
 {
   "name": "FlexibleSteppedProgressBar",
+  "platforms": {
+    "ios": "9.3"
+  },
+  "summary": "FlexibleSteppedProgressBar provides a customisable progress bar for IOS.",
+  "requires_arc": true,
   "version": "0.1.0",
-  "summary": "A short description of FlexibleSteppedProgressBar.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/FlexibleSteppedProgressBar",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -11,12 +13,11 @@
   "authors": {
     "Amrata Baghel": "amrata.baghel@gmail.com"
   },
+  "homepage": "https://github.com/amratab/FlexibleSteppedProgressBar",
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/FlexibleSteppedProgressBar.git",
+    "git": "https://github.com/amratab/FlexibleSteppedProgressBar.git",
     "tag": "0.1.0"
   },
-  "platforms": {
-    "ios": "8.0"
-  },
-  "source_files": "FlexibleSteppedProgressBar/Classes/**/*"
+  "frameworks": "UIKit",
+  "source_files": "FlexibleSteppedProgressBar/**/*.{swift}"
 }
