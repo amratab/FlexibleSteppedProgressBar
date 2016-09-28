@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FlexibleSteppedProgressBar_Example' do
+  pod 'FlexibleSteppedProgressBar', :path => '../'
+
+  target 'FlexibleSteppedProgressBar_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
