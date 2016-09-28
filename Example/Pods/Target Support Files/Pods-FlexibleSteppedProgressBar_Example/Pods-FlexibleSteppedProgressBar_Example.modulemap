@@ -1,0 +1,6 @@
+framework module Pods_FlexibleSteppedProgressBar_Example {
+  umbrella header "Pods-FlexibleSteppedProgressBar_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

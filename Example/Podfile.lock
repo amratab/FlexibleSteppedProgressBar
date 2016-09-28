@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.2)
+  - FBSnapshotTestCase/Core (2.1.2)
+  - FBSnapshotTestCase/SwiftSupport (2.1.2):
+    - FBSnapshotTestCase/Core
+  - FlexibleSteppedProgressBar (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - FlexibleSteppedProgressBar (from `../`)
+
+EXTERNAL SOURCES:
+  FlexibleSteppedProgressBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
+  FlexibleSteppedProgressBar: 962153fa8e5a5ed0e61f759fd00872309cdbf5df
+
+PODFILE CHECKSUM: 321e2a6b5c156e313739257e14eda133eb425d7e
+
+COCOAPODS: 1.0.1

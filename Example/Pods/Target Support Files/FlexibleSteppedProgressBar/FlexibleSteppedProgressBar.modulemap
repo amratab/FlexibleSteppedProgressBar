@@ -1,0 +1,6 @@
+framework module FlexibleSteppedProgressBar {
+  umbrella header "FlexibleSteppedProgressBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

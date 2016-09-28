@@ -1,0 +1,6 @@
+framework module Pods_FlexibleSteppedProgressBar_Tests {
+  umbrella header "Pods-FlexibleSteppedProgressBar_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
