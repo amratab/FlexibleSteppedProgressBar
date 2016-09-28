@@ -9,7 +9,7 @@
 import UIKit
 import FlexibleSteppedProgressBar
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
 
     var progressBar: FlexibleSteppedProgressBar!
     var maxIndex = -1
@@ -34,7 +34,7 @@ class ViewController: UIViewController {
             view.topAnchor,
             constant: 80
         )
-        let widthConstraint = progressBar.widthAnchor.constraintEqualToAnchor(nil, constant: 800)
+        let widthConstraint = progressBar.widthAnchor.constraintEqualToAnchor(nil, constant: 400)
         let heightConstraint = progressBar.heightAnchor.constraintEqualToAnchor(nil, constant: 150)
         NSLayoutConstraint.activateConstraints([horizontalConstraint, verticalConstraint, widthConstraint, heightConstraint])
         
