@@ -1,6 +1,6 @@
 # FlexibleSteppedProgressBar
 
-[![CI Status](http://img.shields.io/travis/Amrata Baghel/FlexibleSteppedProgressBar.svg?style=flat)](https://travis-ci.org/amratab/FlexibleSteppedProgressBar.svg?branch=master)
+[![CI Status](https://travis-ci.org/amratab/FlexibleSteppedProgressBar.svg?branch=master)](https://travis-ci.org/Amrata Baghel/FlexibleSteppedProgressBar)
 [![Version](https://img.shields.io/cocoapods/v/FlexibleSteppedProgressBar.svg?style=flat)](http://cocoapods.org/pods/FlexibleSteppedProgressBar)
 [![License](https://img.shields.io/cocoapods/l/FlexibleSteppedProgressBar.svg?style=flat)](http://cocoapods.org/pods/FlexibleSteppedProgressBar)
 [![Platform](https://img.shields.io/cocoapods/p/FlexibleSteppedProgressBar.svg?style=flat)](http://cocoapods.org/pods/FlexibleSteppedProgressBar)
