@@ -3,9 +3,9 @@
 # * https://github.com/supermarin/xcpretty#usage
 
 language: objective-c
-podfile: Example-FlexibleSteppedProgressBar/Podfile
+podfile: Example/Podfile
 osx_image: xcode8
-xcode_workspace: Example-FlexibleSteppedProgressBar/Example.xcworkspace
+xcode_workspace: Example/FlexibleSteppedProgressBar.xcworkspace
 xcode_scheme: Example
 xcode_sdk: ipad2
 script:
