@@ -7,7 +7,4 @@ podfile: Example/Podfile
 osx_image: xcode8
 xcode_workspace: Example/FlexibleSteppedProgressBar.xcworkspace
 xcode_scheme: Example
-xcode_sdk: ipad2
-script:
-- set -o pipefail && xcodebuild test -workspace Example/FlexibleSteppedProgressBar.xcworkspace -scheme FlexibleSteppedProgressBar-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
-- pod lib lint
+xcode_sdk: iphonesimulator9.3
