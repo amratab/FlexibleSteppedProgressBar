@@ -4,7 +4,7 @@
 
 language: objective-c
 podfile: Example-FlexibleSteppedProgressBar/Podfile
-osx_image: xcode9.3
+osx_image: xcode8
 xcode_workspace: Example-FlexibleSteppedProgressBar/Example.xcworkspace
 xcode_scheme: Example
 xcode_sdk: ipad2
