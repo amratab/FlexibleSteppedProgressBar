@@ -7,6 +7,10 @@
 
 This is a stepped progress bar for IOS. The base code is derived from [ABSteppedProgressBar](https://github.com/antoninbiret/ABSteppedProgressBar). Most of the design is customisable. Text can be positioned inside the circles or on top or bottom of them or if the user wants, at all the three places. Please refer to usage section for more details.
 
+![alt tag](https://github.com/amratab/FlexibleSteppedProgressBar/blob/master/FlexibleGreenThemeDemo.gif)
+![alt tag](https://github.com/amratab/FlexibleSteppedProgressBar/blob/master/FlexibleYelloThemeBarDemo.gif)
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
