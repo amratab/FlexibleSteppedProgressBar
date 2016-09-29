@@ -65,6 +65,7 @@ I made some modifications upon ABSteppedProgressBar because I had an extra state
     c) centerLayerDarkBackgroundTextColor: This is the text color for center position when it is either selected or last state.
     d) stepTextColor: This is the text color in the top or bottom positions for all but selected indices.
     e) stepTextFont: This is the font for all the positions and indices.
+    f) textDistance: This is the distance of top and bottom text from the center of their respective indices. 
     
     Also, other customisation options are available through delegate methods.
     
