@@ -13,7 +13,6 @@ class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
 
     var progressBar: FlexibleSteppedProgressBar!
     var progressBarWithoutLastState: FlexibleSteppedProgressBar!
-    var progressBarWithTextVariation: FlexibleSteppedProgressBar!
     var progressBarWithDifferentDimensions: FlexibleSteppedProgressBar!
     
     var backgroundColor = UIColor(red: 218.0 / 255.0, green: 218.0 / 255.0, blue: 218.0 / 255.0, alpha: 1.0)
@@ -26,7 +25,6 @@ class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
         super.viewDidLoad()
         setupProgressBar()
         setupProgressBarWithoutLastState()
-        setupProgressBarWithTextVariation()
         setupProgressBarWithDifferentDimensions()
     }
     
@@ -45,7 +43,7 @@ class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
             view.topAnchor,
             constant: 300
         )
-        let widthConstraint = progressBarWithoutLastState.widthAnchor.constraintEqualToAnchor(nil, constant: 500)
+        let widthConstraint = progressBarWithoutLastState.widthAnchor.constraintEqualToAnchor(nil, constant: 450)
         let heightConstraint = progressBarWithoutLastState.heightAnchor.constraintEqualToAnchor(nil, constant: 150)
         NSLayoutConstraint.activateConstraints([horizontalConstraint, verticalConstraint, widthConstraint, heightConstraint])
         
@@ -66,10 +64,6 @@ class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
         
     }
     
-    func setupProgressBarWithTextVariation() {
-        
-    }
-    
     func setupProgressBarWithDifferentDimensions() {
         progressBarWithDifferentDimensions = FlexibleSteppedProgressBar()
         progressBarWithDifferentDimensions.translatesAutoresizingMaskIntoConstraints = false
@@ -81,7 +75,7 @@ class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
             view.topAnchor,
             constant: 450
         )
-        let widthConstraint = progressBarWithDifferentDimensions.widthAnchor.constraintEqualToAnchor(nil, constant: 800)
+        let widthConstraint = progressBarWithDifferentDimensions.widthAnchor.constraintEqualToAnchor(nil, constant: 450)
         let heightConstraint = progressBarWithDifferentDimensions.heightAnchor.constraintEqualToAnchor(nil, constant: 150)
         NSLayoutConstraint.activateConstraints([horizontalConstraint, verticalConstraint, widthConstraint, heightConstraint])
         
@@ -97,7 +91,6 @@ class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
         progressBarWithDifferentDimensions.selectedBackgoundColor = progressColor
         progressBarWithDifferentDimensions.selectedOuterCircleStrokeColor = backgroundColor
         progressBarWithDifferentDimensions.lastStateOuterCircleStrokeColor = backgroundColor
-        progressBarWithDifferentDimensions.lastStateCenterColor = progressColor
         progressBarWithDifferentDimensions.currentSelectedCenterColor = progressColor
         progressBarWithDifferentDimensions.stepTextColor = textColorHere
         progressBarWithDifferentDimensions.currentSelectedTextColor = progressColor
@@ -115,7 +108,7 @@ class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
             view.topAnchor,
             constant: 80
         )
-        let widthConstraint = progressBar.widthAnchor.constraintEqualToAnchor(nil, constant: 500)
+        let widthConstraint = progressBar.widthAnchor.constraintEqualToAnchor(nil, constant: 450)
         let heightConstraint = progressBar.heightAnchor.constraintEqualToAnchor(nil, constant: 150)
         NSLayoutConstraint.activateConstraints([horizontalConstraint, verticalConstraint, widthConstraint, heightConstraint])
         
@@ -132,7 +125,6 @@ class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
         progressBar.selectedBackgoundColor = progressColor
         progressBar.selectedOuterCircleStrokeColor = backgroundColor
         progressBar.lastStateOuterCircleStrokeColor = backgroundColor
-        progressBar.lastStateCenterColor = progressColor
         progressBar.currentSelectedCenterColor = progressColor
         progressBar.currentSelectedTextColor = progressColor
         
