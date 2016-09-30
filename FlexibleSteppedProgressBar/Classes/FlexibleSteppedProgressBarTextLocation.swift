@@ -1,8 +1,8 @@
 //
-//  SteppedProgressBarTextLocation.swift
-//  SteppedProgressBar
+//  FlexibleSteppedProgressBarTextLocation.swift
+//  FlexibleSteppedProgressBar
 //
-//  Created by Sahil Dhankhar on 28/09/16.
+//  Created by Amrata Baghel on 28/09/16.
 //  Copyright © 2016 logicuffabaghel. All rights reserved.
 //
 
