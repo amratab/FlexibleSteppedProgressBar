@@ -25,7 +25,73 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "FlexibleSteppedProgressBar"
 ```
-## Usage
+## Basic Usage
+
+    import FlexibleSteppedProgressBar
+
+    class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
+
+        var progressBar: FlexibleSteppedProgressBar!
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            progressBar = FlexibleSteppedProgressBar()
+            progressBar.translatesAutoresizingMaskIntoConstraints = false
+            self.view.addSubview(progressBar)
+
+            let horizontalConstraint = progressBar.centerXAnchor.constraintEqualToAnchor(self.view.centerXAnchor)
+            let verticalConstraint = progressBar.topAnchor.constraintEqualToAnchor(
+                view.topAnchor,
+                constant: 80
+            )
+            let widthConstraint = progressBar.widthAnchor.constraintEqualToAnchor(nil, constant: 500)
+            let heightConstraint = progressBar.heightAnchor.constraintEqualToAnchor(nil, constant: 150)
+            NSLayoutConstraint.activateConstraints([horizontalConstraint, verticalConstraint, widthConstraint, heightConstraint])
+
+            // Customise the progress bar here
+            progressBar.numberOfPoints = 5
+            progressBar.lineHeight = 9
+            progressBar.radius = 15
+            progressBar.progressRadius = 25
+            progressBar.progressLineHeight = 3
+            progressBar.delegate = self
+        }
+        
+        func progressBar(progressBar: FlexibleSteppedProgressBar,
+                     didSelectItemAtIndex index: Int) {
+            print("Index selected!")
+        }
+        
+        func progressBar(progressBar: FlexibleSteppedProgressBar,
+                     willSelectItemAtIndex index: Int) {
+            print("Index selected!")
+        }
+
+        func progressBar(progressBar: FlexibleSteppedProgressBar,
+                         canSelectItemAtIndex index: Int) -> Bool {
+            return true
+        }
+    
+        func progressBar(progressBar: FlexibleSteppedProgressBar,
+                         textAtIndex index: Int, position: FlexibleSteppedProgressBarTextLocation) -> String {
+            if position == FlexibleSteppedProgressBarTextLocation.BOTTOM {
+                switch index {
+                    
+                case 0: return "First"
+                case 1: return "Second"
+                case 2: return "Third"
+                case 3: return "Fourth"
+                case 4: return "Fifth"
+                default: return "Date"
+                    
+                }
+            }
+        return ""
+        }
+    }
+    
+## Customisations
+
 I made some modifications upon ABSteppedProgressBar because I had an extra state to cater to, Last State. It specifies the last indice user has covered on the progress bar. For example, my use case was to specify properties of a product in a particular oder through progress bar lets say there were Step 1, Step 2 to Step 5. So, if the user has completed till step 3, and he goes back to step 1 to make some modification, progres bar should indicate separately the step 3 as last state and step 1 as selected state. It is completely optional here. If you want to use last state, you can simply state your wish through useLastState parameter and specify completedTillIndex as the last state. Progress bar does not keep track of the last state. 
 
     There are four states for a progress point:
