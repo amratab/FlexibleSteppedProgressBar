@@ -38,14 +38,14 @@ class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
         self.view.addSubview(progressBarWithoutLastState)
         
         // iOS9+ auto layout code
-        let horizontalConstraint = progressBarWithoutLastState.centerXAnchor.constraintEqualToAnchor(self.view.centerXAnchor)
-        let verticalConstraint = progressBarWithoutLastState.topAnchor.constraintEqualToAnchor(
-            view.topAnchor,
+        let horizontalConstraint = progressBarWithoutLastState.centerXAnchor.constraint(equalTo: self.view.centerXAnchor)
+        let verticalConstraint = progressBarWithoutLastState.topAnchor.constraint(
+            equalTo: view.topAnchor,
             constant: 300
         )
-        let widthConstraint = progressBarWithoutLastState.widthAnchor.constraintEqualToAnchor(nil, constant: 450)
-        let heightConstraint = progressBarWithoutLastState.heightAnchor.constraintEqualToAnchor(nil, constant: 150)
-        NSLayoutConstraint.activateConstraints([horizontalConstraint, verticalConstraint, widthConstraint, heightConstraint])
+        let widthConstraint = progressBarWithoutLastState.widthAnchor.constraint(equalTo: nil, constant: 450)
+        let heightConstraint = progressBarWithoutLastState.heightAnchor.constraint(equalTo: nil, constant: 150)
+        NSLayoutConstraint.activate([horizontalConstraint, verticalConstraint, widthConstraint, heightConstraint])
         
         // Customise the progress bar here
         progressBarWithoutLastState.numberOfPoints = 4
@@ -70,14 +70,14 @@ class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
         self.view.addSubview(progressBarWithDifferentDimensions)
         
         // iOS9+ auto layout code
-        let horizontalConstraint = progressBarWithDifferentDimensions.centerXAnchor.constraintEqualToAnchor(self.view.centerXAnchor)
-        let verticalConstraint = progressBarWithDifferentDimensions.topAnchor.constraintEqualToAnchor(
-            view.topAnchor,
+        let horizontalConstraint = progressBarWithDifferentDimensions.centerXAnchor.constraint(equalTo: self.view.centerXAnchor)
+        let verticalConstraint = progressBarWithDifferentDimensions.topAnchor.constraint(
+            equalTo: view.topAnchor,
             constant: 450
         )
-        let widthConstraint = progressBarWithDifferentDimensions.widthAnchor.constraintEqualToAnchor(nil, constant: 450)
-        let heightConstraint = progressBarWithDifferentDimensions.heightAnchor.constraintEqualToAnchor(nil, constant: 150)
-        NSLayoutConstraint.activateConstraints([horizontalConstraint, verticalConstraint, widthConstraint, heightConstraint])
+        let widthConstraint = progressBarWithDifferentDimensions.widthAnchor.constraint(equalTo: nil, constant: 450)
+        let heightConstraint = progressBarWithDifferentDimensions.heightAnchor.constraint(equalTo: nil, constant: 150)
+        NSLayoutConstraint.activate([horizontalConstraint, verticalConstraint, widthConstraint, heightConstraint])
         
         
         progressBarWithDifferentDimensions.numberOfPoints = 5
@@ -103,14 +103,14 @@ class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
         self.view.addSubview(progressBar)
         
         // iOS9+ auto layout code
-        let horizontalConstraint = progressBar.centerXAnchor.constraintEqualToAnchor(self.view.centerXAnchor)
-        let verticalConstraint = progressBar.topAnchor.constraintEqualToAnchor(
-            view.topAnchor,
+        let horizontalConstraint = progressBar.centerXAnchor.constraint(equalTo: self.view.centerXAnchor)
+        let verticalConstraint = progressBar.topAnchor.constraint(
+            equalTo: view.topAnchor,
             constant: 80
         )
-        let widthConstraint = progressBar.widthAnchor.constraintEqualToAnchor(nil, constant: 450)
-        let heightConstraint = progressBar.heightAnchor.constraintEqualToAnchor(nil, constant: 150)
-        NSLayoutConstraint.activateConstraints([horizontalConstraint, verticalConstraint, widthConstraint, heightConstraint])
+        let widthConstraint = progressBar.widthAnchor.constraint(equalTo: nil, constant: 450)
+        let heightConstraint = progressBar.heightAnchor.constraint(equalTo: nil, constant: 150)
+        NSLayoutConstraint.activate([horizontalConstraint, verticalConstraint, widthConstraint, heightConstraint])
         
         // Customise the progress bar here
         progressBar.numberOfPoints = 5
@@ -132,7 +132,7 @@ class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
         progressBar.currentIndex = 0
     }
     
-    func progressBar(progressBar: FlexibleSteppedProgressBar,
+    func progressBar(_ progressBar: FlexibleSteppedProgressBar,
                      didSelectItemAtIndex index: Int) {
         progressBar.currentIndex = index
         if index > maxIndex {
@@ -141,15 +141,15 @@ class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
         }
     }
     
-    func progressBar(progressBar: FlexibleSteppedProgressBar,
+    func progressBar(_ progressBar: FlexibleSteppedProgressBar,
                      canSelectItemAtIndex index: Int) -> Bool {
         return true
     }
     
-    func progressBar(progressBar: FlexibleSteppedProgressBar,
+    func progressBar(_ progressBar: FlexibleSteppedProgressBar,
                      textAtIndex index: Int, position: FlexibleSteppedProgressBarTextLocation) -> String {
         if progressBar == self.progressBar || progressBar == self.progressBarWithoutLastState {
-            if position == FlexibleSteppedProgressBarTextLocation.TOP {
+            if position == FlexibleSteppedProgressBarTextLocation.top {
                 switch index {
                     
                 case 0: return "Choose"
@@ -160,7 +160,7 @@ class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
                 default: return "Step"
                     
                 }
-            } else if position == FlexibleSteppedProgressBarTextLocation.BOTTOM {
+            } else if position == FlexibleSteppedProgressBarTextLocation.bottom {
                 switch index {
                     
                 case 0: return "First"
@@ -172,7 +172,7 @@ class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
                     
                 }
                 
-            } else if position == FlexibleSteppedProgressBarTextLocation.CENTER {
+            } else if position == FlexibleSteppedProgressBarTextLocation.center {
                 switch index {
                     
                 case 0: return "1"
@@ -185,7 +185,7 @@ class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
                 }
             }
         } else if progressBar == progressBarWithDifferentDimensions {
-            if position == FlexibleSteppedProgressBarTextLocation.BOTTOM {
+            if position == FlexibleSteppedProgressBarTextLocation.bottom {
                 switch index {
                     
                 case 0: return "First"

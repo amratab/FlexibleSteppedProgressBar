@@ -16,7 +16,7 @@ extension CATextLayer {
         
         let font = UIFont(name: fontName, size: self.fontSize)
         
-        let attributes = NSDictionary(object: font!, forKey: NSFontAttributeName)
+        let attributes = NSDictionary(object: font!, forKey: NSFontAttributeName as NSCopying)
         
         let attString = NSAttributedString(string: self.string as! String, attributes: attributes as? [String : AnyObject])
         
@@ -28,6 +28,6 @@ extension CATextLayer {
 
         width = ceil(width)
         
-        self.bounds = CGRectMake(0, 0, width, ceil(ascent+descent))
+        self.bounds = CGRect(x: 0, y: 0, width: width, height: ceil(ascent+descent))
     }
 }

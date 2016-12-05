@@ -6,6 +6,6 @@ target 'FlexibleSteppedProgressBar_Example' do
   target 'FlexibleSteppedProgressBar_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+#    pod 'FBSnapshotTestCase'
   end
 end

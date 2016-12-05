@@ -7,41 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06266BA00EC9D96C8016ABE1BAA8A406 /* Pods-FlexibleSteppedProgressBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC59E64EF7B2A77249F109157121CA05 /* Pods-FlexibleSteppedProgressBar_Tests-dummy.m */; };
 		082E0B2ADE1734EC46C1F48D68142981 /* FlexibleSteppedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80C7E6418A641E62A9B0BA4AE5FDF78 /* FlexibleSteppedProgressBar.swift */; };
 		08585E8C74262CBC32AF5AEF093C2912 /* FSPBPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1A1CAA1E4E8FCC84E5F7CE19BAAED3 /* FSPBPointExtension.swift */; };
 		0F257AE837210CF9141C8DF43631C2FC /* FlexibleSteppedProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98273A260A4F1D4F4801009AD1C258DD /* FlexibleSteppedProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11C22C7B844DF31A5EBDC9AC132C5E94 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		130F048002A62769FAFCC66F2C79391A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C87E1788C8FA06AE3481A2226E3AF2D /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
-		34A1C7E576C58A9D3F3101448308BF3E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		4137CA558E97982E6E71A064CFA9501C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */; };
-		497AA8816FC08215EF4C2431E1986992 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
-		61EBC5CF0D5E065C88028B49C6B8D3B3 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		68B245DB47CA60F8F9ADCA1E8CCDC324 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6914EE43A9B8B8D30220B3B6B0D57523 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
-		6E4A16BF4D27C48BB1FE1E1CF5E8B90E /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		73B96724E9D2B03677BA3C2D24601D64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF31F155B6FBBDD8C6F4E390A699C8D8 /* XCTest.framework */; };
-		85D178DFCA1BC67BBFB1188E34EC5B19 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		894E8563672445E43A92B89A8E7E4069 /* Pods-FlexibleSteppedProgressBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4E60AF559D53FB3C56AEC6B3C0C26EF /* Pods-FlexibleSteppedProgressBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8ACF6A5515A175054E22414BF740EF14 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4137CA558E97982E6E71A064CFA9501C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		919B782F70A9595BD3E8B788C24DD7C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
 		9785B65C20144151D99E95671972CAFD /* Pods-FlexibleSteppedProgressBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C41F412A26E73B27A1E6535A3C8D3E4B /* Pods-FlexibleSteppedProgressBar_Example-dummy.m */; };
-		9FA3B93CE0ECAC3CDC30890659AACF82 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8059FAAAEAE43F6523E233E925EB381 /* Pods-FlexibleSteppedProgressBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC59E64EF7B2A77249F109157121CA05 /* Pods-FlexibleSteppedProgressBar_Tests-dummy.m */; };
-		A932B89F114B02D24B5FBF362FD0B9F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */; };
-		ADB700869F677FCE09888F6F6889B371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */; };
-		B10319187C9BC439DBE631EFEE569CD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CD3E7B203996A0AD52CB5A5492AB0D /* UIKit.framework */; };
-		B6A67A3B998747E4290BF6010EC33806 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADB700869F677FCE09888F6F6889B371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		B10319187C9BC439DBE631EFEE569CD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
 		B88DD1CD1FE9FE8B7AFFF161C48C1A28 /* FSPBTextLayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D55C642B37371F0131993EDDB1A35 /* FSPBTextLayerExtension.swift */; };
-		C360952381641F725C15758993A0F665 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		D4E073A955E6EB3B9B7B5A5E54194A68 /* Pods-FlexibleSteppedProgressBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E89FFB2760E6F016B6608EA9C2413B6 /* Pods-FlexibleSteppedProgressBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
-		DDDE0DF0165691B8338570B00BC75C87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */; };
 		E40A52603E4C17E30F55E9DBC58822B4 /* FlexibleSteppedProgressBarTextLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D265C4A9CD2867C0957C36586F8BE3CB /* FlexibleSteppedProgressBarTextLocation.swift */; };
 		E930521B778579BB2057152CCC7010B5 /* FlexibleSteppedProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A14C1B0BF797953630606572F235DC /* FlexibleSteppedProgressBar-dummy.m */; };
-		EAA652557B70F493923A3447B5D64E0D /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F0B3BC4CE7B1074981F32DDD032E9539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CD3E7B203996A0AD52CB5A5492AB0D /* UIKit.framework */; };
-		F366B775C22BBE1DBAC7BDB7DE8F0A26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A69AD0237CBECB2ED21B40E60E958C3 /* QuartzCore.framework */; };
-		F47158C234C50FFB069A1EF8AB26D9F1 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
+		EFAC056588184CDD35BAE25A3B89C482 /* Pods-FlexibleSteppedProgressBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4E60AF559D53FB3C56AEC6B3C0C26EF /* Pods-FlexibleSteppedProgressBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,87 +31,48 @@
 			remoteGlobalIDString = 59D9C9791A57BB63010D601E2A765399;
 			remoteInfo = FlexibleSteppedProgressBar;
 		};
-		8E6ED3BA74D4AAF70EABBE4989191A99 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5DB46EA499F9A5E22765121102FCC34B;
-			remoteInfo = FBSnapshotTestCase;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		082A173891DAFE9B0FF2EA78571765B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		0CDC07879FC37A118046DC5723C38EFB /* FlexibleSteppedProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleSteppedProgressBar-prefix.pch"; sourceTree = "<group>"; };
 		0E89FFB2760E6F016B6608EA9C2413B6 /* Pods-FlexibleSteppedProgressBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlexibleSteppedProgressBar_Example-umbrella.h"; sourceTree = "<group>"; };
-		10F350F89304EBA4E39B5F0F7A56DD9A /* FlexibleSteppedProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlexibleSteppedProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		1A23EA75B8AF3B2B54130D2C943BBF32 /* Pods-FlexibleSteppedProgressBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexibleSteppedProgressBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1D3972528E664A3B5C84F094C3743E02 /* Pods_FlexibleSteppedProgressBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexibleSteppedProgressBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		23CD3E7B203996A0AD52CB5A5492AB0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2A1D41B73CAAD4FA3FAD6C9C25C3A2AD /* FlexibleSteppedProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlexibleSteppedProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B2EB757B76BFBEAC0F58AFD4DE78AC5 /* Pods-FlexibleSteppedProgressBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FlexibleSteppedProgressBar_Tests.modulemap"; sourceTree = "<group>"; };
-		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3438CCEF317599699C8B9AB3D8BDD14D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		387FB85E57F4F8E2A11EB1AB2D59D367 /* Pods-FlexibleSteppedProgressBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexibleSteppedProgressBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		44A14C1B0BF797953630606572F235DC /* FlexibleSteppedProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlexibleSteppedProgressBar-dummy.m"; sourceTree = "<group>"; };
+		4B5D7BE2DE22F2B099ADB4D41B8F905C /* Pods_FlexibleSteppedProgressBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexibleSteppedProgressBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4D5CDB345D7E004C0FE52F13AE0CAE /* Pods-FlexibleSteppedProgressBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexibleSteppedProgressBar_Example-resources.sh"; sourceTree = "<group>"; };
 		4FEDC37488C4A76D1AC0F3F16A522D7C /* FlexibleSteppedProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexibleSteppedProgressBar.xcconfig; sourceTree = "<group>"; };
-		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		50F2BDAB27CB8EFB0241111B99273DA0 /* Pods_FlexibleSteppedProgressBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexibleSteppedProgressBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A3DAB7A708FF45DE97FAC2706DE902B /* Pods-FlexibleSteppedProgressBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexibleSteppedProgressBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6D219C75E91A75F0FA3EE75ACED0EF38 /* Pods-FlexibleSteppedProgressBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexibleSteppedProgressBar_Tests-resources.sh"; sourceTree = "<group>"; };
-		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		714AD43DCC92EE09EB324B4029ED18B5 /* Pods-FlexibleSteppedProgressBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexibleSteppedProgressBar_Example-frameworks.sh"; sourceTree = "<group>"; };
-		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		7FB33AC7E58E44F9F93887846511F577 /* Pods-FlexibleSteppedProgressBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexibleSteppedProgressBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		85D17EAA9B6CF66C68F9F89F43B13BF1 /* FlexibleSteppedProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FlexibleSteppedProgressBar.modulemap; sourceTree = "<group>"; };
-		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98273A260A4F1D4F4801009AD1C258DD /* FlexibleSteppedProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleSteppedProgressBar-umbrella.h"; sourceTree = "<group>"; };
-		9A69AD0237CBECB2ED21B40E60E958C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A48FACA26F4546A37A55E5237EDFED74 /* Pods-FlexibleSteppedProgressBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FlexibleSteppedProgressBar_Example.modulemap"; sourceTree = "<group>"; };
 		AC37635587919A9D92DBE49C6D37DFB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B11A73BDB82F03F0323DF1E96F2C9B39 /* Pods-FlexibleSteppedProgressBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlexibleSteppedProgressBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B2C09516DBCCA5BAEF1B9A0BAB8A83DA /* Pods-FlexibleSteppedProgressBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlexibleSteppedProgressBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		BA59242F89D5DE8281206CD109C7691A /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB1A1CAA1E4E8FCC84E5F7CE19BAAED3 /* FSPBPointExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FSPBPointExtension.swift; sourceTree = "<group>"; };
 		BC59E64EF7B2A77249F109157121CA05 /* Pods-FlexibleSteppedProgressBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlexibleSteppedProgressBar_Tests-dummy.m"; sourceTree = "<group>"; };
 		C41F412A26E73B27A1E6535A3C8D3E4B /* Pods-FlexibleSteppedProgressBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlexibleSteppedProgressBar_Example-dummy.m"; sourceTree = "<group>"; };
 		C47B1492A33ABB9322E99525794641A3 /* Pods-FlexibleSteppedProgressBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlexibleSteppedProgressBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C4E60AF559D53FB3C56AEC6B3C0C26EF /* Pods-FlexibleSteppedProgressBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlexibleSteppedProgressBar_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		CF31F155B6FBBDD8C6F4E390A699C8D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D265C4A9CD2867C0957C36586F8BE3CB /* FlexibleSteppedProgressBarTextLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlexibleSteppedProgressBarTextLocation.swift; sourceTree = "<group>"; };
 		D48D55C642B37371F0131993EDDB1A35 /* FSPBTextLayerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FSPBTextLayerExtension.swift; sourceTree = "<group>"; };
-		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		E2A8341CAF7AE73B8AE2337070DCDB93 /* Pods-FlexibleSteppedProgressBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexibleSteppedProgressBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		E3C94A267B468F36DA541C80F09754F1 /* Pods_FlexibleSteppedProgressBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexibleSteppedProgressBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E80C7E6418A641E62A9B0BA4AE5FDF78 /* FlexibleSteppedProgressBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlexibleSteppedProgressBar.swift; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F0AA470BCDFED11E07BAE294A725F845 /* Pods-FlexibleSteppedProgressBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlexibleSteppedProgressBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6E85E6E526B365AAE8B9FFB2A4D03B85 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DDDE0DF0165691B8338570B00BC75C87 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A9B92C0C7AA50721A377B2338BA33002 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,42 +90,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1A13ADE6C7840452C8DD4B939BFD24B /* Frameworks */ = {
+		FB855C8208314DD0C4705F18DB749A7C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A932B89F114B02D24B5FBF362FD0B9F9 /* Foundation.framework in Frameworks */,
-				F366B775C22BBE1DBAC7BDB7DE8F0A26 /* QuartzCore.framework in Frameworks */,
-				F0B3BC4CE7B1074981F32DDD032E9539 /* UIKit.framework in Frameworks */,
-				73B96724E9D2B03677BA3C2D24601D64 /* XCTest.framework in Frameworks */,
+				919B782F70A9595BD3E8B788C24DD7C4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7AB6481CFE5F8A7F7E7C212E6398EC0C /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */,
-				DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */,
-				52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */,
-				CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */,
-				73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */,
-				6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
 		20E25C93E841EFB248BF9C2EE3D30DFC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,16 +115,6 @@
 			path = "Example/Pods/Target Support Files/FlexibleSteppedProgressBar";
 			sourceTree = "<group>";
 		};
-		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				F35791481CAFDD8E7715AE1B44687328 /* Core */,
-				1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */,
-				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
-			);
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
 		40FC2B84E4CC20C6EF5869AB8D11CBEC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +122,14 @@
 				EA830A0992BEA10F549D1B6970C1D582 /* Pods-FlexibleSteppedProgressBar_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		49124C598A67B94603B8C039016D4277 /* Classes */ = {
@@ -248,46 +161,15 @@
 			path = FlexibleSteppedProgressBar;
 			sourceTree = "<group>";
 		};
-		7AB6481CFE5F8A7F7E7C212E6398EC0C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				2F1B0A45F864B16BBE8E470C07F8F740 /* Foundation.framework */,
-				9A69AD0237CBECB2ED21B40E60E958C3 /* QuartzCore.framework */,
-				23CD3E7B203996A0AD52CB5A5492AB0D /* UIKit.framework */,
-				CF31F155B6FBBDD8C6F4E390A699C8D8 /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				E048EEB1BC7074C676E0538A12EB4214 /* Development Pods */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				8C5FA358DD1DB24306645A9D4F56BD1E /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				AD5C30CC5D0B2304B2E7B9EA8444A8F1 /* Products */,
 				40FC2B84E4CC20C6EF5869AB8D11CBEC /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8C5FA358DD1DB24306645A9D4F56BD1E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BA59242F89D5DE8281206CD109C7691A /* FBSnapshotTestCase.framework */,
-				10F350F89304EBA4E39B5F0F7A56DD9A /* FlexibleSteppedProgressBar.framework */,
-				1D3972528E664A3B5C84F094C3743E02 /* Pods_FlexibleSteppedProgressBar_Example.framework */,
-				E3C94A267B468F36DA541C80F09754F1 /* Pods_FlexibleSteppedProgressBar_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
-			isa = PBXGroup;
-			children = (
-				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
 		9CA6699CBDF67EE36A974D409EFAC4AD /* Pods-FlexibleSteppedProgressBar_Example */ = {
@@ -306,6 +188,16 @@
 			);
 			name = "Pods-FlexibleSteppedProgressBar_Example";
 			path = "Target Support Files/Pods-FlexibleSteppedProgressBar_Example";
+			sourceTree = "<group>";
+		};
+		AD5C30CC5D0B2304B2E7B9EA8444A8F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A1D41B73CAAD4FA3FAD6C9C25C3A2AD /* FlexibleSteppedProgressBar.framework */,
+				4B5D7BE2DE22F2B099ADB4D41B8F905C /* Pods_FlexibleSteppedProgressBar_Example.framework */,
+				50F2BDAB27CB8EFB0241111B99273DA0 /* Pods_FlexibleSteppedProgressBar_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		E048EEB1BC7074C676E0538A12EB4214 /* Development Pods */ = {
@@ -334,53 +226,18 @@
 			path = "Target Support Files/Pods-FlexibleSteppedProgressBar_Tests";
 			sourceTree = "<group>";
 		};
-		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */,
-				39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */,
-				7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */,
-				58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */,
-				1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */,
-				052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */,
-				B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */,
-				2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */,
-				432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */,
-				3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */,
-				85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */,
-				B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */,
-				0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */,
-				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
 			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
-			);
-			name = Pods;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0AA9BDD2EE167077970D198258CF5519 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6A67A3B998747E4290BF6010EC33806 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				8ACF6A5515A175054E22414BF740EF14 /* FBSnapshotTestCase.h in Headers */,
-				9FA3B93CE0ECAC3CDC30890659AACF82 /* FBSnapshotTestCasePlatform.h in Headers */,
-				130F048002A62769FAFCC66F2C79391A /* FBSnapshotTestController.h in Headers */,
-				68B245DB47CA60F8F9ADCA1E8CCDC324 /* UIApplication+StrictKeyWindow.h in Headers */,
-				EAA652557B70F493923A3447B5D64E0D /* UIImage+Compare.h in Headers */,
-				61EBC5CF0D5E065C88028B49C6B8D3B3 /* UIImage+Diff.h in Headers */,
-				34A1C7E576C58A9D3F3101448308BF3E /* UIImage+Snapshot.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1BA6D0D5231D6662E5CAF633A573EC36 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -389,11 +246,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2097668E8C2A04A612D6D147828520E3 /* Headers */ = {
+		DDC518BE298CB24D39522BCBEB5161AB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				894E8563672445E43A92B89A8E7E4069 /* Pods-FlexibleSteppedProgressBar_Tests-umbrella.h in Headers */,
+				EFAC056588184CDD35BAE25A3B89C482 /* Pods-FlexibleSteppedProgressBar_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,22 +265,21 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2CC105AF9DB7A912C23C45523A393BDD /* Pods-FlexibleSteppedProgressBar_Tests */ = {
+		48798C2F5BCF52C94535D72400D5D0FC /* Pods-FlexibleSteppedProgressBar_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C078727C20F48392AA28DDB3CFFA5194 /* Build configuration list for PBXNativeTarget "Pods-FlexibleSteppedProgressBar_Tests" */;
+			buildConfigurationList = B28562C47D8B5A715AFEF3C270257313 /* Build configuration list for PBXNativeTarget "Pods-FlexibleSteppedProgressBar_Tests" */;
 			buildPhases = (
-				DB26A3CB9172E541763618C06F37D631 /* Sources */,
-				6E85E6E526B365AAE8B9FFB2A4D03B85 /* Frameworks */,
-				2097668E8C2A04A612D6D147828520E3 /* Headers */,
+				1BF198921DFBB81B41E6FFF8C2AE4F53 /* Sources */,
+				FB855C8208314DD0C4705F18DB749A7C /* Frameworks */,
+				DDC518BE298CB24D39522BCBEB5161AB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				748528F5A50B60E4D74336051C62CE3D /* PBXTargetDependency */,
 			);
 			name = "Pods-FlexibleSteppedProgressBar_Tests";
 			productName = "Pods-FlexibleSteppedProgressBar_Tests";
-			productReference = E3C94A267B468F36DA541C80F09754F1 /* Pods_FlexibleSteppedProgressBar_Tests.framework */;
+			productReference = 50F2BDAB27CB8EFB0241111B99273DA0 /* Pods_FlexibleSteppedProgressBar_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		53F19C87ADC82ED5619E0A40F2ECD666 /* Pods-FlexibleSteppedProgressBar_Example */ = {
@@ -441,7 +297,7 @@
 			);
 			name = "Pods-FlexibleSteppedProgressBar_Example";
 			productName = "Pods-FlexibleSteppedProgressBar_Example";
-			productReference = 1D3972528E664A3B5C84F094C3743E02 /* Pods_FlexibleSteppedProgressBar_Example.framework */;
+			productReference = 4B5D7BE2DE22F2B099ADB4D41B8F905C /* Pods_FlexibleSteppedProgressBar_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		59D9C9791A57BB63010D601E2A765399 /* FlexibleSteppedProgressBar */ = {
@@ -458,24 +314,7 @@
 			);
 			name = FlexibleSteppedProgressBar;
 			productName = FlexibleSteppedProgressBar;
-			productReference = 10F350F89304EBA4E39B5F0F7A56DD9A /* FlexibleSteppedProgressBar.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8D492E06A9E9F494492A2A3B4D19493E /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
-			buildPhases = (
-				7DE474775CBF413C7A124107E34E5614 /* Sources */,
-				F1A13ADE6C7840452C8DD4B939BFD24B /* Frameworks */,
-				0AA9BDD2EE167077970D198258CF5519 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = BA59242F89D5DE8281206CD109C7691A /* FBSnapshotTestCase.framework */;
+			productReference = 2A1D41B73CAAD4FA3FAD6C9C25C3A2AD /* FlexibleSteppedProgressBar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -495,14 +334,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8C5FA358DD1DB24306645A9D4F56BD1E /* Products */;
+			productRefGroup = AD5C30CC5D0B2304B2E7B9EA8444A8F1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */,
 				59D9C9791A57BB63010D601E2A765399 /* FlexibleSteppedProgressBar */,
 				53F19C87ADC82ED5619E0A40F2ECD666 /* Pods-FlexibleSteppedProgressBar_Example */,
-				2CC105AF9DB7A912C23C45523A393BDD /* Pods-FlexibleSteppedProgressBar_Tests */,
+				48798C2F5BCF52C94535D72400D5D0FC /* Pods-FlexibleSteppedProgressBar_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -516,19 +354,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DE474775CBF413C7A124107E34E5614 /* Sources */ = {
+		1BF198921DFBB81B41E6FFF8C2AE4F53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				497AA8816FC08215EF4C2431E1986992 /* FBSnapshotTestCase-dummy.m in Sources */,
-				6914EE43A9B8B8D30220B3B6B0D57523 /* FBSnapshotTestCase.m in Sources */,
-				6E4A16BF4D27C48BB1FE1E1CF5E8B90E /* FBSnapshotTestCasePlatform.m in Sources */,
-				F47158C234C50FFB069A1EF8AB26D9F1 /* FBSnapshotTestController.m in Sources */,
-				85D178DFCA1BC67BBFB1188E34EC5B19 /* SwiftSupport.swift in Sources */,
-				2C87E1788C8FA06AE3481A2226E3AF2D /* UIApplication+StrictKeyWindow.m in Sources */,
-				11C22C7B844DF31A5EBDC9AC132C5E94 /* UIImage+Compare.m in Sources */,
-				C360952381641F725C15758993A0F665 /* UIImage+Diff.m in Sources */,
-				D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */,
+				06266BA00EC9D96C8016ABE1BAA8A406 /* Pods-FlexibleSteppedProgressBar_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,14 +374,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB26A3CB9172E541763618C06F37D631 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A8059FAAAEAE43F6523E233E925EB381 /* Pods-FlexibleSteppedProgressBar_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -561,79 +383,9 @@
 			target = 59D9C9791A57BB63010D601E2A765399 /* FlexibleSteppedProgressBar */;
 			targetProxy = 30848923DA0D28227ACD78906BA262EA /* PBXContainerItemProxy */;
 		};
-		748528F5A50B60E4D74336051C62CE3D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */;
-			targetProxy = 8E6ED3BA74D4AAF70EABBE4989191A99 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1EAB35ACB452D210D5CF60F7847CD85B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		257BD9732008AC25C8A64ED6ADD5D38F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A23EA75B8AF3B2B54130D2C943BBF32 /* Pods-FlexibleSteppedProgressBar_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FlexibleSteppedProgressBar_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FlexibleSteppedProgressBar_Tests/Pods-FlexibleSteppedProgressBar_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FlexibleSteppedProgressBar_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -665,10 +417,43 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48F7DE4A418AE838D7AD2D0A5AB46DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A3DAB7A708FF45DE97FAC2706DE902B /* Pods-FlexibleSteppedProgressBar_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlexibleSteppedProgressBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlexibleSteppedProgressBar_Tests/Pods-FlexibleSteppedProgressBar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlexibleSteppedProgressBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -707,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -729,7 +514,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-FlexibleSteppedProgressBar_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FlexibleSteppedProgressBar_Example/Pods-FlexibleSteppedProgressBar_Example.modulemap";
@@ -763,7 +548,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FlexibleSteppedProgressBar/FlexibleSteppedProgressBar-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FlexibleSteppedProgressBar/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FlexibleSteppedProgressBar/FlexibleSteppedProgressBar.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -776,13 +561,13 @@
 			};
 			name = Release;
 		};
-		C82CE7F5C5C00ACA727FE4010B3B03F8 /* Release */ = {
+		A2A456601AE6D3BA452577CF7926F081 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A3DAB7A708FF45DE97FAC2706DE902B /* Pods-FlexibleSteppedProgressBar_Tests.release.xcconfig */;
+			baseConfigurationReference = 1A23EA75B8AF3B2B54130D2C943BBF32 /* Pods-FlexibleSteppedProgressBar_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -791,11 +576,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-FlexibleSteppedProgressBar_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FlexibleSteppedProgressBar_Tests/Pods-FlexibleSteppedProgressBar_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -807,7 +592,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		CAB16B9CC7184B461CBC185C75E2ACFD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -825,7 +610,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FlexibleSteppedProgressBar/FlexibleSteppedProgressBar-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FlexibleSteppedProgressBar/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FlexibleSteppedProgressBar/FlexibleSteppedProgressBar.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -838,35 +623,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		F1966C59AF0C3A63F4C5A9E7987B3CB0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		F2E4FC3FD78138746F5E18723B3CF119 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -883,7 +639,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-FlexibleSteppedProgressBar_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FlexibleSteppedProgressBar_Example/Pods-FlexibleSteppedProgressBar_Example.modulemap";
@@ -914,15 +670,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D492E06A9E9F494492A2A3B4D19493E /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1EAB35ACB452D210D5CF60F7847CD85B /* Debug */,
-				F1966C59AF0C3A63F4C5A9E7987B3CB0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		8F9B40AB031685D2E516ACA612FC7B27 /* Build configuration list for PBXNativeTarget "FlexibleSteppedProgressBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -932,11 +679,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C078727C20F48392AA28DDB3CFFA5194 /* Build configuration list for PBXNativeTarget "Pods-FlexibleSteppedProgressBar_Tests" */ = {
+		B28562C47D8B5A715AFEF3C270257313 /* Build configuration list for PBXNativeTarget "Pods-FlexibleSteppedProgressBar_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				257BD9732008AC25C8A64ED6ADD5D38F /* Debug */,
-				C82CE7F5C5C00ACA727FE4010B3B03F8 /* Release */,
+				A2A456601AE6D3BA452577CF7926F081 /* Debug */,
+				48F7DE4A418AE838D7AD2D0A5AB46DA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

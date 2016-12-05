@@ -9,7 +9,7 @@
 import Foundation
 
 @objc public enum FlexibleSteppedProgressBarTextLocation: Int {
-    case TOP
-    case BOTTOM
-    case CENTER
+    case top
+    case bottom
+    case center
 }
