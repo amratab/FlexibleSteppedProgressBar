@@ -1,10 +1,13 @@
 # FlexibleSteppedProgressBar
 
 [![CI Status](https://travis-ci.org/amratab/FlexibleSteppedProgressBar.svg?branch=master)](https://travis-ci.org/Amrata Baghel/FlexibleSteppedProgressBar)
+[![Swift][swift-badge]][swift-url]
 [![Version](https://img.shields.io/cocoapods/v/FlexibleSteppedProgressBar.svg?style=flat)](http://cocoapods.org/pods/FlexibleSteppedProgressBar)
 [![License](https://img.shields.io/cocoapods/l/FlexibleSteppedProgressBar.svg?style=flat)](http://cocoapods.org/pods/FlexibleSteppedProgressBar)
 [![Platform](https://img.shields.io/cocoapods/p/FlexibleSteppedProgressBar.svg?style=flat)](http://cocoapods.org/pods/FlexibleSteppedProgressBar)
 
+[swift-badge]: https://img.shields.io/badge/Swift-3.0-orange.svg
+[swift-url]: https://swift.org
 This is a stepped progress bar for IOS. The base code is derived from [ABSteppedProgressBar](https://github.com/antoninbiret/ABSteppedProgressBar). Most of the design is customisable. Text can be positioned inside the circles or on top or bottom of them or if the user wants, at all the three places. Please refer to usage section for more details.
 
 ![alt tag](https://github.com/amratab/FlexibleSteppedProgressBar/blob/master/FlexibleGreenThemeDemo.gif)
