@@ -43,8 +43,8 @@ class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
             equalTo: view.topAnchor,
             constant: 300
         )
-        let widthConstraint = progressBarWithoutLastState.widthAnchor.constraint(equalTo: nil, constant: 450)
-        let heightConstraint = progressBarWithoutLastState.heightAnchor.constraint(equalTo: nil, constant: 150)
+        let widthConstraint = progressBarWithoutLastState.widthAnchor.constraint(equalToConstant: 450)
+        let heightConstraint = progressBarWithoutLastState.heightAnchor.constraint(equalToConstant: 150)
         NSLayoutConstraint.activate([horizontalConstraint, verticalConstraint, widthConstraint, heightConstraint])
         
         // Customise the progress bar here
@@ -75,8 +75,8 @@ class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
             equalTo: view.topAnchor,
             constant: 450
         )
-        let widthConstraint = progressBarWithDifferentDimensions.widthAnchor.constraint(equalTo: nil, constant: 450)
-        let heightConstraint = progressBarWithDifferentDimensions.heightAnchor.constraint(equalTo: nil, constant: 150)
+        let widthConstraint = progressBarWithDifferentDimensions.widthAnchor.constraint(equalToConstant: 450)
+        let heightConstraint = progressBarWithDifferentDimensions.heightAnchor.constraint(equalToConstant: 150)
         NSLayoutConstraint.activate([horizontalConstraint, verticalConstraint, widthConstraint, heightConstraint])
         
         
@@ -108,8 +108,8 @@ class ViewController: UIViewController, FlexibleSteppedProgressBarDelegate {
             equalTo: view.topAnchor,
             constant: 80
         )
-        let widthConstraint = progressBar.widthAnchor.constraint(equalTo: nil, constant: 450)
-        let heightConstraint = progressBar.heightAnchor.constraint(equalTo: nil, constant: 150)
+        let widthConstraint = progressBar.widthAnchor.constraint(equalToConstant: CGFloat(450))
+        let heightConstraint = progressBar.heightAnchor.constraint(equalToConstant: CGFloat(150))
         NSLayoutConstraint.activate([horizontalConstraint, verticalConstraint, widthConstraint, heightConstraint])
         
         // Customise the progress bar here
