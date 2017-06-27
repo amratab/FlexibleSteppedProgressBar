@@ -5,8 +5,8 @@
 language: objective-c
 podfile: Example/Podfile
 osx_image: xcode8
-xcode_workspace: Example/FlexibleSteppedProgressBar.xcworkspace
-xcode_scheme: FlexibleSteppedProgressBar-Example
+#xcode_workspace: Example/FlexibleSteppedProgressBar.xcworkspace
+#xcode_scheme: FlexibleSteppedProgressBar-Example
 xcode_sdk: iphonesimulator10.0
 
 before_install:
