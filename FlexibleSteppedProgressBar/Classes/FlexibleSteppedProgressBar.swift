@@ -633,33 +633,33 @@ import CoreGraphics
                 
                 xCursor = centerPoint.x
                 
-                startAngle = CGFloat(M_PI)
+                startAngle = CGFloat.pi
                 endAngle = -angle
                 
             } else if(i < nbPoint - 1) {
                 
-                startAngle = CGFloat(M_PI) + angle
+                startAngle = CGFloat.pi + angle
                 endAngle = -angle
                 
             } else if(i == (nbPoint - 1)){
                 
-                startAngle = CGFloat(M_PI) + angle
+                startAngle = CGFloat.pi + angle
                 endAngle = 0
                 
             } else if(i == nbPoint) {
                 
                 startAngle = 0
-                endAngle = CGFloat(M_PI) - angle
+                endAngle = CGFloat.pi - angle
                 
             } else if (i < (2 * nbPoint - 1)) {
                 
                 startAngle = angle
-                endAngle = CGFloat(M_PI) - angle
+                endAngle = CGFloat.pi - angle
                 
             } else {
                 
                 startAngle = angle
-                endAngle = CGFloat(M_PI)
+                endAngle = CGFloat.pi
                 
             }
             
@@ -686,7 +686,7 @@ import CoreGraphics
 //        let angle = CGFloat(M_PI)/4
         let path = UIBezierPath()
 //        path.addArcWithCenter(center, radius: self._progressRadius + _radius, startAngle: angle, endAngle: 2*CGFloat(M_PI) + CGFloat(M_PI)/4, clockwise: true)
-        path.addArc(withCenter: center, radius: self._progressRadius + lastStateOuterCircleLineWidth, startAngle: 0, endAngle: 4*CGFloat(M_PI), clockwise: true)
+        path.addArc(withCenter: center, radius: self._progressRadius + lastStateOuterCircleLineWidth, startAngle: 0, endAngle: 4*CGFloat.pi, clockwise: true)
         return path
     }
     
