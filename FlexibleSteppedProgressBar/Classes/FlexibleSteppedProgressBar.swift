@@ -21,8 +21,9 @@ import CoreGraphics
     @objc optional func progressBar(_ progressBar: FlexibleSteppedProgressBar,
                               canSelectItemAtIndex index: Int) -> Bool
     
-    @objc optional func progressBar(_ progressBar: FlexibleSteppedProgressBar,
-                              textAtIndex index: Int, position: FlexibleSteppedProgressBarTextLocation) -> String
+    @objc optional func progressBar(_ progressBar: FlexibleSteppedProgressBar, textAtIndex index: Int, position: FlexibleSteppedProgressBarTextLocation) -> String
+    
+    @objc optional func progressBar(_ progressBar: FlexibleSteppedProgressBar, selectedTextAtIndex index: Int, position: FlexibleSteppedProgressBarTextLocation) -> UIImage?
     
 }
 
@@ -61,6 +62,7 @@ import CoreGraphics
     
     open var currentSelectedCenterColor: UIColor = UIColor.black
     open var currentSelectedTextColor: UIColor!
+    open var currentSelectedCenterTextColor: UIColor! = UIColor.black
     open var viewBackgroundColor: UIColor = UIColor.white
     open var selectedOuterCircleStrokeColor: UIColor!
     open var lastStateOuterCircleStrokeColor: UIColor!
@@ -455,6 +457,11 @@ import CoreGraphics
                 textLayer.string = "\(i)"
             }
             
+            if let image = self.delegate?.progressBar?(self, selectedTextAtIndex: i, position: .center), i < currentIndex {
+                textLayer.contents = image.cgImage
+                textLayer.contentsGravity = kCAGravityResizeAspect
+            }
+            
             textLayer.sizeWidthToFit()
             
             textLayer.frame = CGRect(x: centerPoint.x - textLayer.bounds.width/2, y: centerPoint.y - textLayer.bounds.height/2, width: textLayer.bounds.width, height: textLayer.bounds.height)
@@ -491,6 +498,11 @@ import CoreGraphics
                 textLayer.string = "\(i)"
             }
             
+            if let image = self.delegate?.progressBar?(self, selectedTextAtIndex: i, position: .top), i < currentIndex {
+                textLayer.contents = image.cgImage
+                textLayer.contentsGravity = kCAGravityResizeAspect
+            }
+            
             textLayer.sizeWidthToFit()
             
             textLayer.frame = CGRect(x: centerPoint.x - textLayer.bounds.width/2, y: centerPoint.y - textLayer.bounds.height/2 - _progressRadius - textDistance, width: textLayer.bounds.width, height: textLayer.bounds.height)
@@ -519,6 +531,11 @@ import CoreGraphics
                 textLayer.string = text
             } else {
                 textLayer.string = "\(i)"
+            }
+            
+            if let image = self.delegate?.progressBar?(self, selectedTextAtIndex: i, position: .bottom), i < currentIndex {
+                textLayer.contents = image.cgImage
+                textLayer.contentsGravity = kCAGravityResizeAspect
             }
             
             textLayer.sizeWidthToFit()
@@ -633,33 +650,33 @@ import CoreGraphics
                 
                 xCursor = centerPoint.x
                 
-                startAngle = CGFloat(M_PI)
+                startAngle = CGFloat(Double.pi)
                 endAngle = -angle
                 
             } else if(i < nbPoint - 1) {
                 
-                startAngle = CGFloat(M_PI) + angle
+                startAngle = CGFloat(Double.pi) + angle
                 endAngle = -angle
                 
             } else if(i == (nbPoint - 1)){
                 
-                startAngle = CGFloat(M_PI) + angle
+                startAngle = CGFloat(Double.pi) + angle
                 endAngle = 0
                 
             } else if(i == nbPoint) {
                 
                 startAngle = 0
-                endAngle = CGFloat(M_PI) - angle
+                endAngle = CGFloat(Double.pi) - angle
                 
             } else if (i < (2 * nbPoint - 1)) {
                 
                 startAngle = angle
-                endAngle = CGFloat(M_PI) - angle
+                endAngle = CGFloat(Double.pi) - angle
                 
             } else {
                 
                 startAngle = angle
-                endAngle = CGFloat(M_PI)
+                endAngle = CGFloat(Double.pi)
                 
             }
             
