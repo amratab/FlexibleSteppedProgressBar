@@ -732,7 +732,7 @@ import CoreGraphics
      
      - parameter gestureRecognizer: The gesture recognizer responsible for the action
      */
-    func gestureAction(_ gestureRecognizer: UIGestureRecognizer) {
+    @objc func gestureAction(_ gestureRecognizer: UIGestureRecognizer) {
         if(gestureRecognizer.state == UIGestureRecognizerState.ended ||
             gestureRecognizer.state == UIGestureRecognizerState.changed ) {
             
