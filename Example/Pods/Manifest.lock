@@ -1,16 +1,16 @@
 PODS:
-  - FlexibleSteppedProgressBar (0.1.0)
+  - FlexibleSteppedProgressBar (0.5.0)
 
 DEPENDENCIES:
   - FlexibleSteppedProgressBar (from `../`)
 
 EXTERNAL SOURCES:
   FlexibleSteppedProgressBar:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  FlexibleSteppedProgressBar: 72e677b92945988a9596cd0418d93fe27e367a24
+  FlexibleSteppedProgressBar: 04f3108109bbcd42c3c4ab02b79b41a7335e77aa
 
 PODFILE CHECKSUM: 88dadbb79cb3d2ec4c9a450613d3821be090bbb1
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.3.1
