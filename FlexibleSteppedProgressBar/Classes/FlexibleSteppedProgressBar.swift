@@ -437,11 +437,10 @@ import CoreGraphics
             
             let textLayer = self._textLayer(atIndex: i)
             
-            let textLayerFont = UIFont.boldSystemFont(ofSize: 15)
             textLayer.contentsScale = UIScreen.main.scale
             
-            textLayer.font = CTFontCreateWithName(textLayerFont.fontName as CFString, textLayerFont.pointSize, nil)
-            textLayer.fontSize = textLayerFont.pointSize
+            textLayer.font = stepTextFont
+            textLayer.fontSize = (stepTextFont?.pointSize)!
             
             if i == currentIndex || i == completedTillIndex {
                 textLayer.foregroundColor = centerLayerDarkBackgroundTextColor.cgColor
