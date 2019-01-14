@@ -16,9 +16,9 @@ extension CATextLayer {
         
         let font = UIFont(name: fontName, size: self.fontSize)
         
-        let attributes = NSDictionary(object: font!, forKey: NSAttributedStringKey.font as NSCopying)
+        let attributes = NSDictionary(object: font!, forKey: NSAttributedString.Key.font as NSCopying)
         
-        let attString = NSAttributedString(string: self.string as! String, attributes: attributes as? [NSAttributedStringKey : AnyObject])
+        let attString = NSAttributedString(string: self.string as! String, attributes: attributes as? [NSAttributedString.Key : AnyObject])
         
         var ascent: CGFloat = 0, descent: CGFloat = 0, width: CGFloat = 0
         

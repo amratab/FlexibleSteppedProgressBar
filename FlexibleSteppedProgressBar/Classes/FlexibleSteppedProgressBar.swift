@@ -304,7 +304,7 @@ import CoreGraphics
         self.layer.addSublayer(self.roadToSelectionLayer)
         self.progressLayer.mask = self.maskLayer
         
-        self.contentMode = UIViewContentMode.redraw
+        self.contentMode = UIView.ContentMode.redraw
     }
     
     override open func draw(_ rect: CGRect) {
@@ -409,7 +409,7 @@ import CoreGraphics
             progressAnimation.duration = stepAnimationDuration * CFTimeInterval(abs(completedTillIndex - previousIndex))
             progressAnimation.toValue = maskPath
             progressAnimation.isRemovedOnCompletion = false
-            progressAnimation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+            progressAnimation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
             
             
             CATransaction.setCompletionBlock { () -> Void in
@@ -733,8 +733,8 @@ import CoreGraphics
      - parameter gestureRecognizer: The gesture recognizer responsible for the action
      */
     @objc func gestureAction(_ gestureRecognizer: UIGestureRecognizer) {
-        if(gestureRecognizer.state == UIGestureRecognizerState.ended ||
-            gestureRecognizer.state == UIGestureRecognizerState.changed ) {
+        if(gestureRecognizer.state == UIGestureRecognizer.State.ended ||
+            gestureRecognizer.state == UIGestureRecognizer.State.changed ) {
             
             let touchPoint = gestureRecognizer.location(in: self)
             
