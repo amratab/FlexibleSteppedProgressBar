@@ -187,6 +187,12 @@ import CoreGraphics
         }
     }
     
+    /// The text font inside the circles
+    @objc open var centerLayerTextFont: UIFont? {
+        didSet {
+            self.setNeedsDisplay()
+        }
+    }
     
     /// The component's background color
     @IBInspectable open var backgroundShapeColor: UIColor = UIColor(red: 238.0/255.0, green: 238.0/255.0, blue: 238.0/255.0, alpha: 0.8) {
@@ -282,6 +288,10 @@ import CoreGraphics
         
         if stepTextFont == nil {
             stepTextFont = UIFont(name: "HelveticaNeue-Medium", size: 14.0)
+        }
+        
+        if centerLayerTextFont == nil {
+            stepTextFont = UIFont.boldSystemFont(ofSize: 15)
         }
         
         if centerLayerTextColor == nil {
@@ -437,11 +447,9 @@ import CoreGraphics
             
             let textLayer = self._textLayer(atIndex: i)
             
-            let textLayerFont = UIFont.boldSystemFont(ofSize: 15)
             textLayer.contentsScale = UIScreen.main.scale
-            
-            textLayer.font = CTFontCreateWithName(textLayerFont.fontName as CFString, textLayerFont.pointSize, nil)
-            textLayer.fontSize = textLayerFont.pointSize
+            textLayer.font = centerLayerTextFont
+            textLayer.fontSize = (centerLayerTextFont?.pointSize)!
             
             if i == currentIndex || i == completedTillIndex {
                 textLayer.foregroundColor = centerLayerDarkBackgroundTextColor.cgColor
