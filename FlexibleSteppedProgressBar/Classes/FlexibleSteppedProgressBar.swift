@@ -291,7 +291,7 @@ import CoreGraphics
         }
         
         if centerLayerTextFont == nil {
-            stepTextFont = UIFont.boldSystemFont(ofSize: 15)
+            centerLayerTextFont = UIFont.boldSystemFont(ofSize: 15)
         }
         
         if centerLayerTextColor == nil {
@@ -448,6 +448,7 @@ import CoreGraphics
             let textLayer = self._textLayer(atIndex: i)
             
             textLayer.contentsScale = UIScreen.main.scale
+            
             textLayer.font = centerLayerTextFont
             textLayer.fontSize = (centerLayerTextFont?.pointSize)!
             
@@ -480,7 +481,6 @@ import CoreGraphics
             let textLayer = self._topTextLayer(atIndex: i)
             
             textLayer.contentsScale = UIScreen.main.scale
-            
             
             textLayer.font = stepTextFont
             textLayer.fontSize = (stepTextFont?.pointSize)!
