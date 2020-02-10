@@ -437,6 +437,8 @@ import CoreGraphics
             
             let textLayer = self._textLayer(atIndex: i)
             
+            let textLayerFont = self.stepTextFont ?? UIFont.boldSystemFont(ofSize: 15)
+
             textLayer.contentsScale = UIScreen.main.scale
             
             textLayer.font = stepTextFont
