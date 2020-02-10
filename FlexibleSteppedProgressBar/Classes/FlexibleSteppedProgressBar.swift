@@ -438,10 +438,11 @@ import CoreGraphics
             let textLayer = self._textLayer(atIndex: i)
             
             let textLayerFont = self.stepTextFont ?? UIFont.boldSystemFont(ofSize: 15)
+
             textLayer.contentsScale = UIScreen.main.scale
             
-            textLayer.font = CTFontCreateWithName(textLayerFont.fontName as CFString, textLayerFont.pointSize, nil)
-            textLayer.fontSize = textLayerFont.pointSize
+            textLayer.font = stepTextFont
+            textLayer.fontSize = (stepTextFont?.pointSize)!
             
             if i == currentIndex || i == completedTillIndex {
                 textLayer.foregroundColor = centerLayerDarkBackgroundTextColor.cgColor
@@ -683,9 +684,9 @@ import CoreGraphics
     }
     
     fileprivate func _shapePathForLastState(_ center: CGPoint) -> UIBezierPath {
-//        let angle = CGFloat(M_PI)/4
+//        let angle = CGFloat.pi/4
         let path = UIBezierPath()
-//        path.addArcWithCenter(center, radius: self._progressRadius + _radius, startAngle: angle, endAngle: 2*CGFloat(M_PI) + CGFloat(M_PI)/4, clockwise: true)
+//        path.addArcWithCenter(center, radius: self._progressRadius + _radius, startAngle: angle, endAngle: 2*CGFloat.pi + CGFloat.pi/4, clockwise: true)
         path.addArc(withCenter: center, radius: self._progressRadius + lastStateOuterCircleLineWidth, startAngle: 0, endAngle: 4*CGFloat.pi, clockwise: true)
         return path
     }
