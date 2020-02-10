@@ -38,7 +38,7 @@ import CoreGraphics
     }
     
     /// The current selected index
-    open var currentIndex: Int = 0 {
+    @objc open var currentIndex: Int = 0 {
         willSet(newValue){
             if let delegate = self.delegate {
                 delegate.progressBar?(self, willSelectItemAtIndex: newValue)
@@ -50,7 +50,7 @@ import CoreGraphics
         }
     }
     
-    open var completedTillIndex: Int = -1 {
+    @objc open var completedTillIndex: Int = -1 {
         willSet(newValue){
 
         }
@@ -59,16 +59,16 @@ import CoreGraphics
         }
     }
     
-    open var currentSelectedCenterColor: UIColor = UIColor.black
-    open var currentSelectedTextColor: UIColor!
-    open var viewBackgroundColor: UIColor = UIColor.white
-    open var selectedOuterCircleStrokeColor: UIColor!
-    open var lastStateOuterCircleStrokeColor: UIColor!
-    open var lastStateCenterColor: UIColor!
-    open var centerLayerTextColor: UIColor!
-    open var centerLayerDarkBackgroundTextColor: UIColor = UIColor.white
+    @objc open var currentSelectedCenterColor: UIColor = UIColor.black
+    @objc open var currentSelectedTextColor: UIColor!
+    @objc open var viewBackgroundColor: UIColor = UIColor.white
+    @objc open var selectedOuterCircleStrokeColor: UIColor!
+    @objc open var lastStateOuterCircleStrokeColor: UIColor!
+    @objc open var lastStateCenterColor: UIColor!
+    @objc open var centerLayerTextColor: UIColor!
+    @objc open var centerLayerDarkBackgroundTextColor: UIColor = UIColor.white
     
-    open var useLastState: Bool = false {
+    @objc open var useLastState: Bool = false {
         didSet {
             if useLastState {
                 self.layer.addSublayer(self.clearLastStateLayer)
@@ -86,19 +86,19 @@ import CoreGraphics
         }
     }
     
-    open var selectedOuterCircleLineWidth: CGFloat = 3.0 {
+    @objc open var selectedOuterCircleLineWidth: CGFloat = 3.0 {
         didSet {
             self.setNeedsDisplay()
         }
     }
     
-    open var lastStateOuterCircleLineWidth: CGFloat = 5.0 {
+    @objc open var lastStateOuterCircleLineWidth: CGFloat = 5.0 {
         didSet {
             self.setNeedsDisplay()
         }
     }
     
-    open var textDistance: CGFloat = 20.0 {
+    @objc open var textDistance: CGFloat = 20.0 {
         didSet {
             self.setNeedsDisplay()
         }
@@ -174,19 +174,25 @@ import CoreGraphics
     }
     
     /// The text font in the step points
-    open var stepTextFont: UIFont? {
+    @objc open var stepTextFont: UIFont? {
         didSet {
             self.setNeedsDisplay()
         }
     }
     
     /// The text color in the step points
-    open var stepTextColor: UIColor? {
+    @objc open var stepTextColor: UIColor? {
         didSet {
             self.setNeedsDisplay()
         }
     }
     
+    /// The text font inside the circles
+    @objc open var centerLayerTextFont: UIFont? {
+        didSet {
+            self.setNeedsDisplay()
+        }
+    }
     
     /// The component's background color
     @IBInspectable open var backgroundShapeColor: UIColor = UIColor(red: 238.0/255.0, green: 238.0/255.0, blue: 238.0/255.0, alpha: 0.8) {
@@ -203,7 +209,7 @@ import CoreGraphics
     }
     
     /// The component's delegate
-    open weak var delegate: FlexibleSteppedProgressBarDelegate?
+    @objc open weak var delegate: FlexibleSteppedProgressBarDelegate?
     
     
     //MARK: - Private properties
@@ -282,6 +288,10 @@ import CoreGraphics
         
         if stepTextFont == nil {
             stepTextFont = UIFont(name: "HelveticaNeue-Medium", size: 14.0)
+        }
+        
+        if centerLayerTextFont == nil {
+            centerLayerTextFont = UIFont.boldSystemFont(ofSize: 15)
         }
         
         if centerLayerTextColor == nil {
@@ -437,12 +447,10 @@ import CoreGraphics
             
             let textLayer = self._textLayer(atIndex: i)
             
-            let textLayerFont = self.stepTextFont ?? UIFont.boldSystemFont(ofSize: 15)
-
             textLayer.contentsScale = UIScreen.main.scale
             
-            textLayer.font = stepTextFont
-            textLayer.fontSize = (stepTextFont?.pointSize)!
+            textLayer.font = centerLayerTextFont
+            textLayer.fontSize = (centerLayerTextFont?.pointSize)!
             
             if i == currentIndex || i == completedTillIndex {
                 textLayer.foregroundColor = centerLayerDarkBackgroundTextColor.cgColor
@@ -473,7 +481,6 @@ import CoreGraphics
             let textLayer = self._topTextLayer(atIndex: i)
             
             textLayer.contentsScale = UIScreen.main.scale
-            
             
             textLayer.font = stepTextFont
             textLayer.fontSize = (stepTextFont?.pointSize)!
