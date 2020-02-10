@@ -17,5 +17,5 @@ let package = Package(
             path: "FlexibleSteppedProgressBar"          
             ),
     ],
-    swiftLanguageVersions: [.v5]
+    swiftLanguageVersions: [.v4_2]
 )
