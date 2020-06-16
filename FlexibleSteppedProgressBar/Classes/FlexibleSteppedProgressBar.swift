@@ -208,6 +208,16 @@ import CoreGraphics
         }
     }
     
+    /// Set the Progress Bar to support RTL
+    @objc open var isRTL: Bool = false {
+        didSet {
+            if isRTL {
+                transform = CGAffineTransform(scaleX: -1, y: 1)
+            }
+            self.setNeedsDisplay()
+        }
+    }
+    
     /// The component's delegate
     @objc open weak var delegate: FlexibleSteppedProgressBarDelegate?
     
@@ -467,6 +477,10 @@ import CoreGraphics
             textLayer.sizeWidthToFit()
             
             textLayer.frame = CGRect(x: centerPoint.x - textLayer.bounds.width/2, y: centerPoint.y - textLayer.bounds.height/2, width: textLayer.bounds.width, height: textLayer.bounds.height)
+            
+            if isRTL {
+              textLayer.setAffineTransform(CGAffineTransform(scaleX: -1, y: 1))
+            }
         }
     }
     
@@ -502,6 +516,10 @@ import CoreGraphics
             textLayer.sizeWidthToFit()
             
             textLayer.frame = CGRect(x: centerPoint.x - textLayer.bounds.width/2, y: centerPoint.y - textLayer.bounds.height/2 - _progressRadius - textDistance, width: textLayer.bounds.width, height: textLayer.bounds.height)
+            
+            if isRTL {
+              textLayer.setAffineTransform(CGAffineTransform(scaleX: -1, y: 1))
+            }
         }
     }
     
@@ -532,6 +550,10 @@ import CoreGraphics
             textLayer.sizeWidthToFit()
             
             textLayer.frame = CGRect(x: centerPoint.x - textLayer.bounds.width/2, y: centerPoint.y - textLayer.bounds.height/2 + _progressRadius + textDistance, width: textLayer.bounds.width, height: textLayer.bounds.height)
+            
+            if isRTL {
+              textLayer.setAffineTransform(CGAffineTransform(scaleX: -1, y: 1))
+            }
         }
     }
     
