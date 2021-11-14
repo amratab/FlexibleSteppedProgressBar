@@ -5,7 +5,7 @@
   },
   "summary": "FlexibleSteppedProgressBar provides a customisable progress bar for IOS.",
   "requires_arc": true,
-  "version": "0.5.0",
+  "version": "0.6.1",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -16,7 +16,7 @@
   "homepage": "https://github.com/amratab/FlexibleSteppedProgressBar",
   "source": {
     "git": "https://github.com/amratab/FlexibleSteppedProgressBar.git",
-    "tag": "0.5.0"
+    "tag": "0.6.1"
   },
   "frameworks": "UIKit",
   "source_files": "FlexibleSteppedProgressBar/**/*.{swift}"
