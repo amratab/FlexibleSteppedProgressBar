@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/cocoapods/l/FlexibleSteppedProgressBar.svg?style=flat)](http://cocoapods.org/pods/FlexibleSteppedProgressBar)
 [![Platform](https://img.shields.io/cocoapods/p/FlexibleSteppedProgressBar.svg?style=flat)](http://cocoapods.org/pods/FlexibleSteppedProgressBar)
 
-[swift-badge]: https://img.shields.io/badge/Swift-4.0-orange.svg
+[swift-badge]: https://img.shields.io/badge/Swift-5.1-orange.svg
 [swift-url]: https://swift.org
 This is a stepped progress bar for IOS. The base code is derived from [ABSteppedProgressBar](https://github.com/antoninbiret/ABSteppedProgressBar). Most of the design is customisable. Text can be positioned inside the circles or on top or bottom of them or if the user wants, at all the three places. Please refer to usage section for more details.
 
