@@ -67,6 +67,10 @@ import CoreGraphics
     @objc open var lastStateCenterColor: UIColor!
     @objc open var centerLayerTextColor: UIColor!
     @objc open var centerLayerDarkBackgroundTextColor: UIColor = UIColor.white
+    @objc open var labelBottomAlignmentMode: CATextLayerAlignmentMode = CATextLayerAlignmentMode.left
+    @objc open var labelTopAlignmentMode: CATextLayerAlignmentMode = CATextLayerAlignmentMode.left
+    @objc open var labelTopHeightMultiplier: CGFloat = 1
+    @objc open var labelBottomHeightMultiplier: CGFloat = 1
     
     @objc open var useLastState: Bool = false {
         didSet {
@@ -515,11 +519,12 @@ import CoreGraphics
             
             textLayer.sizeWidthToFit()
             
-            textLayer.frame = CGRect(x: centerPoint.x - textLayer.bounds.width/2, y: centerPoint.y - textLayer.bounds.height/2 - _progressRadius - textDistance, width: textLayer.bounds.width, height: textLayer.bounds.height)
+            textLayer.alignmentMode = labelTopAlignmentMode
             
             if isRTL {
               textLayer.setAffineTransform(CGAffineTransform(scaleX: -1, y: 1))
             }
+            textLayer.frame = CGRect(x: centerPoint.x - textLayer.bounds.width/2, y: centerPoint.y - textLayer.bounds.height/2 - _progressRadius - textDistance, width: textLayer.bounds.width, height: textLayer.bounds.height*labelTopHeightMultiplier)
         }
     }
     
@@ -549,11 +554,12 @@ import CoreGraphics
             
             textLayer.sizeWidthToFit()
             
-            textLayer.frame = CGRect(x: centerPoint.x - textLayer.bounds.width/2, y: centerPoint.y - textLayer.bounds.height/2 + _progressRadius + textDistance, width: textLayer.bounds.width, height: textLayer.bounds.height)
+            textLayer.alignmentMode = labelBottomAlignmentMode
             
             if isRTL {
               textLayer.setAffineTransform(CGAffineTransform(scaleX: -1, y: 1))
             }
+            textLayer.frame = CGRect(x: centerPoint.x - textLayer.bounds.width/2, y: centerPoint.y - textLayer.bounds.height/2 + _progressRadius + textDistance, width: textLayer.bounds.width, height: textLayer.bounds.height*labelBottomHeightMultiplier)
         }
     }
     
